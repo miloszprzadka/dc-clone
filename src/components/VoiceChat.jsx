@@ -42,25 +42,21 @@ const VoiceChat = () => {
 
   return (
     <div  className=''>
-        <section className='pt-20 flex bg-[#f6f6f6] justify-center '> 
-            <motion.div animate={animation} className='pl-35 pt-20'>
-               <h1 className=' leading-[55px] font-bold text-[48px] text-black whitespace-nowrap'>
+        <section className='pt-20 flex bg-[#f6f6f6] justify-center sm:flex-col-reverse sm:pb-20 '> 
+            <motion.div animate={animation} className='w-[21%] sm:w-[100%] pt-20 sm:mr-1 sm:pt-5 '>
+               <h1 className='leading-[55px] font-bold text-[48px] text-black whitespace-pre-wrap sm:text-[25px] sm:leading-normal sm:whitespace-normal  sm:ml-6'>
                 Łatwe spędzanie 
-                <br class="block" />
                 czasu
                 </h1>
-                <p className='pt-5 text-[20px] text-black'>
+                <p className='pt-5 text-[20px] text-black sm:text-[15px] sm:mx-6'>
                 Gdy masz czas, rozsiądź się wygodnie na 
-                <br class="block" />
                 kanale głosowym. Znajomi na Twoim 
-                <br class="block" />
                 serwerze widzą, że tu jesteś, i mogą wpaść 
-                <br class="block" />
                 pogadać bez dzwonienia. 
                 </p> 
             </motion.div>
             <motion.div ref={ref} animate={animation}>
-              <img  src='src/assets/voicechat.svg'></img>
+              <img className='sm:w-[80%] sm:mx-auto ml-10' src='src/assets/voicechat.svg'></img>
             </motion.div>
         </section>
         

@@ -41,28 +41,22 @@ const Roles = () => {
   },[inView]);
 
   return (
-    <div className='m-20'>
-        <section className='flex bg-white justify-center '>
+    <div className='mt-20 mb-20 '>
+        <section className='flex bg-white justify-center  sm:flex-col'>
           <motion.div animate={animation}>
-            <img ref={ref} className='w-[700px] h-[500px]' src='src/assets/roles.svg'></img>
+            <img ref={ref} className='w-[600px] sm:w-[90%] sm:mx-auto' src='src/assets/roles.svg'></img>
           </motion.div>
-            <motion.div animate={animation} ref={ref} className='pl-20'>
-               <h1 className=' leading-[55px] font-bold text-[48px] text-black whitespace-nowrap'>
+            <motion.div animate={animation} ref={ref} className='w-[25%] sm:w-[100%] pl-20 sm:pl-0 '>
+               <h1 className=' leading-[55px] font-bold text-[48px] text-black whitespace-pre-wrap sm:text-[20px] sm:whitespace-normal sm:ml-6'>
                 Od garstki osób 
-                <br class="block" />
                 do całego
-                <br class="block" />
                 fandomu
                 </h1>
-                <p className='pt-5 text-[20px] text-black'>
+                <p className='pt-5 text-[20px] text-black sm:text-[15px] sm:mx-6'>
                 Zgromadź dowolną społeczność dzięki 
-                <br class="block" />
                 narzędziom moderowania i personalizacji 
-                <br class="block" />
                 dostępu użytkowników. Daj członkom 
-                <br class="block" />
                 społeczności specjalne moce, uruchom 
-                <br class="block" />
                 kanały prywatne i nie tylko.
                 </p> 
             </motion.div>

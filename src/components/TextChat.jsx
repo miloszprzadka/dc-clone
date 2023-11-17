@@ -46,32 +46,24 @@ const TextChat = () => {
     
 
   return (
-    <div className='m-20'>
-        <section className='flex bg-white justify-center '>
+    <div className='m-20 sm:m-0 sm:mt-20 '>
+        <section className='flex bg-white justify-center  sm:flex-col'>
           <motion.div animate={animation}>
-            <img ref={ref} src='src/assets/textchat.svg'></img>
+            <img className=' w-[90%] sm:w-[90%] sm:ml-6 ml-10' ref={ref} src='src/assets/textchat.svg'></img>
           </motion.div>
-            <motion.div ref={ref} animate={animation} className='pl-20'>
-               <h1 className=' leading-[55px] font-bold text-[48px] text-black whitespace-nowrap'>
-                Stwórz miejsce 
-                <br class="block" />
+            <motion.div ref={ref} animate={animation} className='w-[29%] sm:w-[100%] pl-20 sm:pl-0 sm:flex-col sm:mb-20'>
+               <h1 className='leading-[55px] font-bold text-[48px] text-black whitespace-break-spaces sm:text-[20px] sm:leading-none sm:justify-start sm:whitespace-normal sm:mx-6 '>
+                Stwórz miejsce  
                 dostępne na
-                <br class="block" />
                 zaproszenie,
-                <br class="block" />
                 gdzie czujesz się 
-                <br class="block" />
                 u siebie
                 </h1>
-                <p className='pt-5 text-[20px] text-black'>
+                <p className='pt-5 text-[20px] text-black sm:text-[15px] sm:justify-start sm:flex sm:mx-6'>
                 Serwery Discorda zorganizowane są w 
-                <br class="block" />
                 kanały tematyczne, na których można 
-                <br class="block" />
                 współpracować, udostępniać materiały lub 
-                <br class="block" />
                 po prostu pogadać bez zapychania czatu 
-                <br class="block" />
                 grupowego.
                 </p> 
             </motion.div>

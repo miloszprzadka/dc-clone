@@ -3,7 +3,7 @@ import React from 'react'
 const Navbar = () => {
   return (
     <header className='bg-[#404eed]'>
-       <div className='pb-10 flex items-center justify-around container py-5 mx-auto p-12'>
+       <div className='pb-10 flex items-center justify-around container py-5 mx-auto p-12 sm:py-3'>
         <svg width="124" height="34" viewBox="0 0 124 34" className="">
             <g fill="currentColor">
               <path
@@ -35,7 +35,7 @@ const Navbar = () => {
               ></path>
             </g>
           </svg>
-        <ul className='flex items-center gap-x-10 '>
+        <ul className='flex items-center gap-x-10 sm:hidden'>
             <li className='cursor-pointer '>Download</li>
             <li className='cursor-pointer'>Nitro</li>
             <li className='cursor-pointer'>Discover</li>

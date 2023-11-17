@@ -7,9 +7,9 @@ import { SocialIcon } from 'react-social-icons'
 const Footer = () => {
   return (
     <div className=''>
-        <section className='bg-[#23272a] mx-auto justify-center flex pt-20 '>
-          <div className='mr-20 '>
-            <select className='text-white bg-[#23272a] text-[14px]'>
+        <section className='bg-[#23272a] mx-auto justify-center flex pt-20  sm:flex-col'>
+          <div className='mr-20 sm:mr-0 '>
+            <select className='text-white bg-[#23272a] text-[14px] sm:ml-10'>
               <option>
                 Polski
               </option>
@@ -20,7 +20,7 @@ const Footer = () => {
                 Espanol
               </option>
             </select>
-            <div className='pt-5 '>
+            <div className='py-10 sm:space-x-1 sm:ml-8'>
               <SocialIcon bgColor="none" fgColor="white" url='https://twitter.com'/>
               <SocialIcon bgColor="none" fgColor="white" url='https://instagram.com'/>
               <SocialIcon bgColor="none" fgColor="white" url='https://facebook.com'/>
@@ -29,7 +29,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className='flex space-x-12 ml-10 mb-10'>
+          <div className='flex space-x-12 ml-10 mb-10 sm:grid sm:grid-cols-2 sm:space-x-0 '>
             <div className='leading-[30px]'>
                 <h2 className='block text-[#5865f2] mb-5'>Produkt</h2>
                 <a className='block'>Pobierz</a>
@@ -44,7 +44,7 @@ const Footer = () => {
                 <a className='block'>Marka</a>
                 <a className='block'>Informacje prasowe</a>
             </div>
-            <div className='leading-[30px]'>
+            <div className='leading-[30px] sm:mt-5'>
                 <h2 className='block text-[#5865f2] mb-5'>Zasoby</h2>
                 <a className='block'>Szkoła wyższa</a>
                 <a className='block'>Wsparcie</a>
@@ -57,7 +57,7 @@ const Footer = () => {
                 <a className='block'>Community</a>
                 <a className='block'>Official 3rd Party Merch</a>        
             </div>
-            <div className='leading-[30px]'>
+            <div className='leading-[30px] sm:mt-5'>
                 <h2 className='block text-[#5865f2] mb-5'>Polityki</h2>
                 <a className='block'>Warunki</a>
                 <a className='block'>Prywatność</a>
@@ -69,8 +69,8 @@ const Footer = () => {
             </div>
           </div>
         </section> 
-        <section className='bg-[#23272a] ' >
-          <div className='flex justify-between w-[1200px] mx-auto border-t-2 border-solid border-[#5865f2] pt-5'>
+        <section className='bg-[#23272a] sm:pb-5' >
+          <div className='flex justify-between w-[1200px] mx-auto border-t-2 border-solid  pt-5 sm:w-[90%] border-[#5865f2]'>
               <svg width="124" height="34" viewBox="0 0 124 34" className="">
                 <g fill="currentColor">
                   <path
