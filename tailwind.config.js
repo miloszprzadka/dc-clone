@@ -7,10 +7,15 @@ export default {
   ],
   theme: {
     extend: {},
+    backgroundPosition: {
+      'bottom-4': 'center bottom 1rem',
+      'left-bottom': 'left bottom ',
+      'left-top': 'left top',
+      'right-bottom': 'right bottom',
+      'right-top': 'right top',
+      'top-4': 'center top 1rem',
+    },
     screens: {
-    
-  
-
       '3xl': {'max': '2560px'},
       // => @media (max-width: 1535px) { ... }
 
@@ -28,6 +33,18 @@ export default {
 
       'sm': {'max': '639px'},
       // => @media (max-width: 639px) { ... }
+
+      'xsm': {'min': '50px'},
+      // => @media (min-width: 639px) { ... }
+
+      'minlg': {'min': '1280px'},
+      // => @media (max-width: 1023px) { ... }
+
+      'minbg': {'min': '1025px'},
+      // => @media (max-width: 1023px) { ... }
+
+      'maxbg': {'max': '1024px'},
+      // => @media (max-width: 1023px) { ... }
     }
   },
   plugins: [ 

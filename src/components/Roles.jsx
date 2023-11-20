@@ -42,17 +42,17 @@ const Roles = () => {
 
   return (
     <div className='mt-20 mb-20 '>
-        <section className='flex bg-white justify-center  sm:flex-col'>
+        <section className='flex bg-white justify-center  lg:flex-col'>
           <motion.div animate={animation}>
-            <img ref={ref} className='w-[600px] sm:w-[90%] sm:mx-auto' src='src/assets/roles.svg'></img>
+            <img ref={ref} className='w-[600px] lg:w-[90%] lg:mx-auto' src='src/assets/roles.svg'></img>
           </motion.div>
-            <motion.div animate={animation} ref={ref} className='w-[25%] sm:w-[100%] pl-20 sm:pl-0 '>
-               <h1 className=' leading-[55px] font-bold text-[48px] text-black whitespace-pre-wrap sm:text-[20px] sm:whitespace-normal sm:ml-6'>
+            <motion.div animate={animation} ref={ref} className='w-[25%] lg:w-[100%] pl-20 lg:pl-0 '>
+               <h1 className=' leading-[55px] font-bold text-[48px] text-black whitespace-pre-wrap lg:text-[20px] lg:whitespace-normal lg:ml-6'>
                 Od garstki osób 
                 do całego
                 fandomu
                 </h1>
-                <p className='pt-5 text-[20px] text-black sm:text-[15px] sm:mx-6'>
+                <p className='pt-5 text-[20px] text-black lg:text-[15px] lg:mx-6'>
                 Zgromadź dowolną społeczność dzięki 
                 narzędziom moderowania i personalizacji 
                 dostępu użytkowników. Daj członkom 

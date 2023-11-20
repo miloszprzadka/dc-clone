@@ -42,13 +42,13 @@ const VoiceChat = () => {
 
   return (
     <div  className=''>
-        <section className='pt-20 flex bg-[#f6f6f6] justify-center sm:flex-col-reverse sm:pb-20 '> 
-            <motion.div animate={animation} className='w-[21%] sm:w-[100%] pt-20 sm:mr-1 sm:pt-5 '>
-               <h1 className='leading-[55px] font-bold text-[48px] text-black whitespace-pre-wrap sm:text-[25px] sm:leading-normal sm:whitespace-normal  sm:ml-6'>
+        <section className='pt-20 flex bg-[#f6f6f6] justify-center lg:flex-col-reverse lg:pb-20 '> 
+            <motion.div animate={animation} className='w-[21%] lg:w-[100%] pt-20 lg:mr-1 lg:pt-5 '>
+               <h1 className='leading-[55px] font-bold text-[48px] text-black whitespace-pre-wrap lg:text-[25px] lg:leading-normal lg:whitespace-normal  lg:ml-6'>
                 Łatwe spędzanie 
                 czasu
                 </h1>
-                <p className='pt-5 text-[20px] text-black sm:text-[15px] sm:mx-6'>
+                <p className='pt-5 text-[20px] text-black lg:text-[15px] lg:mx-6'>
                 Gdy masz czas, rozsiądź się wygodnie na 
                 kanale głosowym. Znajomi na Twoim 
                 serwerze widzą, że tu jesteś, i mogą wpaść 
@@ -56,7 +56,7 @@ const VoiceChat = () => {
                 </p> 
             </motion.div>
             <motion.div ref={ref} animate={animation}>
-              <img className='sm:w-[80%] sm:mx-auto ml-10' src='src/assets/voicechat.svg'></img>
+              <img className='lg:w-[80%] lg:mx-auto ml-10' src='src/assets/voicechat.svg'></img>
             </motion.div>
         </section>
         

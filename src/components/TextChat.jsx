@@ -46,20 +46,20 @@ const TextChat = () => {
     
 
   return (
-    <div className='m-20 sm:m-0 sm:mt-20 '>
-        <section className='flex bg-white justify-center  sm:flex-col'>
+    <div className='m-20 lg:m-0 lg:mt-20 '>
+        <section className='flex bg-white justify-center  lg:flex-col'>
           <motion.div animate={animation}>
-            <img className=' w-[90%] sm:w-[90%] sm:ml-6 ml-10' ref={ref} src='src/assets/textchat.svg'></img>
+            <img className=' w-[90%] lg:w-[90%] lg:ml-6 ml-10' ref={ref} src='src/assets/textchat.svg'></img>
           </motion.div>
-            <motion.div ref={ref} animate={animation} className='w-[29%] sm:w-[100%] pl-20 sm:pl-0 sm:flex-col sm:mb-20'>
-               <h1 className='leading-[55px] font-bold text-[48px] text-black whitespace-break-spaces sm:text-[20px] sm:leading-none sm:justify-start sm:whitespace-normal sm:mx-6 '>
+            <motion.div ref={ref} animate={animation} className='w-[29%] lg:w-[100%] pl-20 lg:pl-0 lg:flex-col lg:mb-20'>
+               <h1 className='leading-[55px] font-bold text-[48px] text-black whitespace-break-spaces lg:text-[20px] lg:leading-none lg:justify-start lg:whitespace-normal lg:mx-6 '>
                 Stwórz miejsce  
                 dostępne na
                 zaproszenie,
                 gdzie czujesz się 
                 u siebie
                 </h1>
-                <p className='pt-5 text-[20px] text-black sm:text-[15px] sm:justify-start sm:flex sm:mx-6'>
+                <p className='pt-5 text-[20px] text-black lg:text-[15px] lg:justify-start lg:flex lg:mx-6'>
                 Serwery Discorda zorganizowane są w 
                 kanały tematyczne, na których można 
                 współpracować, udostępniać materiały lub 
